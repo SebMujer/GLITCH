@@ -222,6 +222,7 @@ body {
     background: #E3E3E3;
     border-radius: 50%;
     z-index: 1;
+    /* No parallax in standalone mode */
 }
 .center-line {
     position: absolute;
@@ -469,7 +470,7 @@ body {
     position: absolute;
     left: 0px;
     top: 50px;
-    width: 950px;
+    width: 950px; /* Increased to allow more horizontal space */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -487,12 +488,12 @@ body {
     font-family: 'Archivo Black';
     font-size: 20px;
     color: #555;
-    line-height: 1.4;
+    line-height: 1.4; /* Improved readability for long text */
     text-wrap: pretty;
 }
 
 .artwork-description {
-    margin-top: 20px;
+    margin-top: 20px; /* One line in between */
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
