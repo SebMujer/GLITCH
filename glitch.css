@@ -438,20 +438,19 @@ body {
 .poster-container {
     position: absolute;
     width: 1650px;
-    height: 850px;
+    height: calc(100vh - 223.07px); 
     left: calc(50% - 825px);
-    top: 50%;
-    transform: translateY(-50%);
+    top: 123.07px;
 }
 
 .artwork-display {
     position: absolute;
     width: 597px;
-    height: 820px;
+    height: 100%;
     left: 1053px;
-    top: 15px;
+    top: 0px; 
     background: var(--secondary-bg);
-    border-radius: 67px;
+    border-radius: 0 0 67px 67px; 
     view-transition-name: poster-art;
 }
 
@@ -545,10 +544,9 @@ body {
 .sdg-connection-container {
     position: absolute;
     width: 1650px;
-    height: 850px;
+    height: calc(100vh - 223.07px);
     left: calc(50% - 825px);
-    top: 50%;
-    transform: translateY(-50%);
+    top: 123.07px;
 }
 
 
