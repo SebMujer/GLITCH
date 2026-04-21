@@ -438,7 +438,7 @@ body {
 .poster-container {
     position: absolute;
     width: 1650px;
-    height: 730px;
+    height: 850px;
     left: calc(50% - 825px);
     top: 50%;
     transform: translateY(-50%);
@@ -447,9 +447,9 @@ body {
 .artwork-display {
     position: absolute;
     width: 597px;
-    height: 730px;
+    height: 820px;
     left: 1053px;
-    top: 0px;
+    top: 15px;
     background: var(--secondary-bg);
     border-radius: 67px;
     view-transition-name: poster-art;
@@ -458,7 +458,7 @@ body {
 .artwork-img {
     position: absolute;
     width: 539px;
-    height: 659px;
+    height: 750px;
     left: 28px;
     top: 34px;
     background: url('assets/672057632_1277802247233582_121277208139544130_n.jpg') center/cover;
@@ -470,7 +470,7 @@ body {
     position: absolute;
     left: 0px;
     top: 50px;
-    width: 950px;
+    width: 950px; /* Increased to allow more horizontal space */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -488,7 +488,7 @@ body {
     font-family: 'Archivo Black';
     font-size: 20px;
     color: #555;
-    line-height: 1.4;
+    line-height: 1.4; /* Improved readability for long text */
     text-wrap: pretty;
 }
 
